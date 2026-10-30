@@ -12,6 +12,8 @@
 | [`design-rationale`](.agents/skills/design-rationale/SKILL.md) | 마무리 단계 | `README` · `RATIONALE.md` (대안 · 선택 이유 · 트레이드오프) |
 | [`session-wrap`](.agents/skills/session-wrap/SKILL.md) | 세션 종료 시 ("세션 정리해줘") | `progress.md` (매번 전체 갱신) |
 
+`lean-design` 은 자동으로 켜지지 않는다 — `$lean-design` 으로 직접 부른다. 작은 변경에는 쓰지 않는다.
+
 늘 지켜야 하는 규칙은 `AGENTS.md` 에, 특정 시점에만 쓰는 절차와 문서 양식은 스킬에 둔다.
 규칙은 스킬이 호출되지 않은 작업에도 적용되고, 스킬 본문은 호출될 때만 읽혀 컨텍스트를 아낀다.
 

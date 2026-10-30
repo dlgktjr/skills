@@ -1,6 +1,6 @@
 ---
 name: session-wrap
-description: 세션을 마칠 때 프로젝트 루트의 progress.md 를 지금 상태 기준으로 통째로 다시 쓴다(뒤에 덧붙이지 않는다). 한 일 · 확인한 결과 · 아직 못한 일 · 다음에 할 일을 정리한다. "세션 정리해줘", "세션정리", "오늘 작업 정리", "progress 업데이트", "마무리하자" 같은 요청에서 사용한다.
+description: 세션을 마칠 때 프로젝트 루트의 progress.md 를 지금 상태 기준으로 통째로 다시 쓴다(뒤에 덧붙이지 않는다). 한 일 · 확인한 결과 · 아직 못한 일 · 다음에 할 일을 정리한다. "세션 정리해줘", "세션정리", "오늘 작업 정리", "progress 업데이트" 같은 요청에서 사용한다.
 ---
 
 # session-wrap — progress.md 를 지금 상태로 다시 쓴다
@@ -26,7 +26,7 @@ progress.md 는 일지가 아니라 **현재 상태판**이다. 다음 세션의
 ```markdown
 # Progress
 
-마지막 갱신: YYYY-MM-DD HH:MM · 브랜치 `<branch>` · 커밋 `<short-sha>`
+마지막 갱신: YYYY-MM-DD HH:MM · 브랜치 `<branch>` · 커밋 `<short-sha>`   (git 저장소가 아니면 날짜만)
 
 ## 지금 상태
 한두 문장. 무엇이 동작하고 무엇이 막혀 있는가.
