@@ -1,0 +1,5 @@
+interface:
+  display_name: "Design Rationale"
+  short_description: "마무리 단계에서 README 와 설계 근거(대안 · 선택 이유)를 RATIONALE.md 로 정리"
+policy:
+  allow_implicit_invocation: true
